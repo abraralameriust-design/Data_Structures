@@ -58,5 +58,18 @@ public class Array {
         }
         return -1;
     }
+    public int BinarySearcg(int []a ,int svalue,int find,int lind){
+        while (find<=lind){
+            int mid=(find+lind)/2;
+            if (svalue==a[mid])
+                return mid;
+            if (svalue>a[mid])
+                find=mid+1;
+            if (svalue<a[mid])
+                lind=mid-1;
+        }
+        return -1;
+
+    }
 
 }
