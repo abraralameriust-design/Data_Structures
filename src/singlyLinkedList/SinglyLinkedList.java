@@ -30,7 +30,7 @@ public class SinglyLinkedList<E>{
             return data;
         }
 
-        public void setData(E data) {
+        public void settData(E data) {
             this.data = data;
         }
 
