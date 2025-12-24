@@ -43,7 +43,7 @@ public class SinglyLinkedList<E>{
         }
     }
 
-    public E getllast() {
+    public E getlast() {
         if (isEmpty()){
             return null;
 
