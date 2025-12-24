@@ -1,4 +1,4 @@
-package SinglyLinkedList;
+package singlyLinkedList;
 
 public class SinglyLinkedList<E> {
     private Node<E> head=null;
@@ -74,25 +74,6 @@ public class SinglyLinkedList<E> {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     class Node<E> {
         private E data;
         private Node<E> next;
